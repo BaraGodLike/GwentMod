@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gwentvlabodia:block/gwent_adder"
+    },
+    "facing=east": {
+      "model": "gwentvlabodia:block/gwent_adder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gwentvlabodia:block/gwent_adder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gwentvlabodia:block/gwent_adder",
+      "y": 270
+    }
+  }
+}

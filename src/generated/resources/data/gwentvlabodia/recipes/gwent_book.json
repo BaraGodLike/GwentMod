@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "I": {
+      "item": "minecraft:item_frame"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "PIP",
+    "PgP"
+  ],
+  "result": {
+    "item": "gwentvlabodia:gwent_book"
+  },
+  "show_notification": true
+}

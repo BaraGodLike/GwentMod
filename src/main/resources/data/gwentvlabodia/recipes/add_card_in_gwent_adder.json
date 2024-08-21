@@ -1,0 +1,9 @@
+{
+  "type": "gwentvlabodia:gwent_adder",
+  "book": {
+    "item": "gwentvlabodia:gwent_book"
+  },
+  "card": {
+      "tag": "gwentvlabodia:gwent_cards"
+    }
+}

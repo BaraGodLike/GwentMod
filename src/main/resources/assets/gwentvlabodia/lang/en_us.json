@@ -1,0 +1,24 @@
+{
+  "item.gwentvlabodia.clear_card": "Clear Gwent card",
+  "creativetab.gwent_tab": "Gwent Tab",
+  "item.gwentvlabodia.gwent_book": "Gwent book",
+  "block.gwentvlabodia.gwent_board": "Gwent board",
+  "block.gwentvlabodia.gwent_adder": "Gwent adder table",
+  "tag.gwentvlabodia.hasCard": "Has a card(s)",
+  "item.gwentvlabodia.uncle_bogdan_card": "Uncle Bogdan",
+  "item.gwentvlabodia.uncle_vlad_card": "Uncle Vlad",
+  "item.gwentvlabodia.ded_card": "Ded",
+  "item.gwentvlabodia.karina_card": "Karina",
+  "item.gwentvlabodia.barsuk_evgen_card": "Badger Evgen",
+  "item.gwentvlabodia.diarrhea_card": "Diarrhea",
+  "item.gwentvlabodia.horse_laugh_card": "Horse Laugh",
+  "item.gwentvlabodia.jews_soul_card": "Jews Soul",
+  "item.gwentvlabodia.mickael_fart_card": "Mickael Fart",
+  "item.gwentvlabodia.poseidon_card": "Poseidon",
+  "item.gwentvlabodia.raskumar_card": "Raskumar",
+  "item.gwentvlabodia.turi_ip_ip_card": "Turi Ip Ip",
+
+  "block.gwentvlabodia:gwent_adder": "Gwent Adder",
+
+  "entity.minecraft.villager.gwentvlabodia.gwentcollector": "Коллекционер карт Гвинта"
+}
