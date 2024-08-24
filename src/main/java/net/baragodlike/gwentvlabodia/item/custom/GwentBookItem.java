@@ -136,9 +136,12 @@ public class GwentBookItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        if (pStack.hasTag() && pStack.getTag().contains("gwentvlabodia.currentDeck")) {
-            int deck = pStack.getTag().getInt("gwentvlabodia.currentDeck");
-            pTooltipComponents.add(Component.literal("Колода: " + (deck == 1 ? "Mythology" : deck == 2 ? "Gym" : "Raskumar")));
+        if (pStack.hasTag()) {
+            pTooltipComponents.add(Component.literal("Хранит в себе " + pStack.getTag().getIntArray("gwentvlabodia.hasCard").length + " карт(ы)"));
+            if (pStack.getTag().contains("gwentvlabodia.currentDeck")) {
+                int deck = pStack.getTag().getInt("gwentvlabodia.currentDeck");
+                pTooltipComponents.add(Component.literal("Колода: " + (deck == 1 ? "Mythology" : deck == 2 ? "Gym" : "Raskumar")));
+            }
             super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
         }
     }
